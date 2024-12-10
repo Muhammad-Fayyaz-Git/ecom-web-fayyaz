@@ -68,7 +68,7 @@ const FooterComponent = () => {
           </div>
         </div>
         <div className="h-[1px]  max-w-[1131px] bg-[#9F9F9F] mx-auto" />
-        <div className="h-[1px]  max-w-[1131px] mx-auto pt-10 text-[#9F9F9F] pl-10 md:pl-0">
+        <div className="h-[1px]  max-w-[1131px] mx-auto pt-10 text-[24px] text-[#000000] pl-10 md:pl-0">
           2022 Meubel House. All rights reverved
         </div>
       </div>

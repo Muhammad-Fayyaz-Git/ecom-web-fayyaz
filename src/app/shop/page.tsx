@@ -75,17 +75,18 @@ const CartPage = () => {
         <div>
          <Link href={'/shop/product'}>
          <Image
-            src={"/images/shop3.png"}
-            height={350}
-            width={350}
-            alt="blogs laptop images"
-            className="w-[230px] h-[250px]   object-contain"
+            src={"/images/shop1.png"}
+            height={50}
+            width={650}
+            alt="images"
+            className="mt-[-6.4rem] w-[230px] h-[350px]   object-none"
           /></Link>
           <div className="flex flex-col gap-6 justify-center items-center text-center">
-            <p className="text-center pt-3">
+            <p className="text-left pt-3 font-medium text-[16px] ">
               Going all-in with millennial design
             </p>
-           <p>RS . 25,000</p>
+           <p className="
+           mr-[6.5rem] font-medium text-[24px] ">RS . 25,000</p>
           </div>
         </div>
         <div>
@@ -98,52 +99,55 @@ const CartPage = () => {
             alt="blogs laptop images"
           /></Link>
           <div className="flex flex-col  gap-6 justify-center items-center text-center pt-3">
-            <p>Going all-in with millennial design</p>
-            <p>RS . 25,000</p>
+          <p className="mt-[-.6rem] text-left pt-3 font-medium text-[16px] ">
+              Going all-in with millennial design
+            </p>
+           <p className="
+           mr-[6.5rem] mt-[-.5rem] font-medium text-[24px] ">RS . 25,000</p>
           </div>
         </div>
         <div>
         <Link href={'/shop/product'}>
           <Image
-            src={"/images/shop4.png"}
-            className="w-[230px] h-[250px]  object-contain "
-            height={350}
-            width={350}
-            alt="blogs laptop images"
+            src={"/images/shop3.png"}
+            className="mt-[-6.3rem] w-[230px] h-[350px]  object-contain "
+            height={50}
+            width={850}
+            alt="images"
           /></Link>
           <div className="flex flex-col  gap-6 justify-center items-center text-center pt-3">
             <p>Going all-in with millennial design</p>
-            <p>RS . 25,000</p>
+            <p className="mr-[9rem]">RS . 25,000</p>
           </div>
         </div> <div>
         <Link href={'/shop/product'}>
           <Image
-            src={"/images/shop5.png"}
-            className="w-[230px] h-[250px]   object-contain "
+            src={"/images/shop4.png"}
+            className="mt-[-.2rem] w-[230px] h-[250px]   object-contain "
             height={350}
             width={350}
             alt="blogs laptop images"
           /></Link>
-          <div className="flex flex-col  gap-6 justify-center items-center text-center pt-3">
+          <div className=" flex flex-col  gap-6 justify-center items-center text-center pt-3">
             <p>Going all-in with millennial design</p>
-            <p>RS . 25,000</p>
+            <p className="mr-[9rem]">RS . 25,000</p>
           </div>
         </div> 
         
         <div>
         <Link href={'/shop/product'}>
           <Image
-            src={"/images/shop2.png"}
-            className="w-[330px] h-[250px]  object-contain "
+            src={"/images/shop5.png"}
+            className="w-[290px] h-[250px]  object-contain "
             height={350}
-            width={250}
-            alt="blogs laptop images"
+            width={150}
+            alt="images"
           /></Link>
-          <div className="flex flex-col  gap-6 justify-center items-center text-center pt-3">
-            <p>Going all-in with millennial design</p>
-            <button className="underline underline-offset-8   font-medium mx-auto">
-              Read More
-            </button>
+          <div className="mr-[12rem] flex flex-col  gap-6 justify-center items-center text-center pt-3">
+            <p>Grain coffee table</p>
+            <div className=" mr-[2.3rem] font-medium mx-auto">
+            RS . 25,000
+            </div>
           </div>
         </div>
         <div>
@@ -163,7 +167,7 @@ const CartPage = () => {
         <div>
         <Link href={'/shop/product'}>
           <Image
-            src={"/images/shop14.png"}
+            src={"/images/shopp9.png"}
             className="w-[230px] h-[250px]   object-contain "
             height={350}
             width={350}
@@ -177,7 +181,7 @@ const CartPage = () => {
         <div>
         <Link href={'/shop/product'}>
           <Image
-            src={"/images/shop8.png"}
+            src={"/images/shop9.png"}
             className="w-[230px] h-[250px]   object-contain "
             height={350}
             width={350}
@@ -192,10 +196,10 @@ const CartPage = () => {
         <div>
         <Link href={'/shop/product'}>
           <Image
-            src={"/images/shop9.png"}
+            src={"/images/shop8.png"}
             className="w-[230px] h-[250px]   object-contain "
-            height={350}
-            width={350}
+            height={50}
+            width={850}
             alt="blogs laptop images"
           /></Link>
           <div className="flex flex-col  gap-6 justify-center items-center text-center pt-3">

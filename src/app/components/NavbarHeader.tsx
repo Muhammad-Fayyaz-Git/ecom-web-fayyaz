@@ -10,7 +10,7 @@ const NavbarHeader = () => {
     <nav>
       {/* Desktop Navbar */}
       <div>
-        <div className="flex justify-center items-center max-w-[1440px] h-[100px] bg-[#FBEBB5] gap-12 mx-auto">
+        <div className="flex justify-end pr-[3rem] gap-[15rem] items-center max-w-[1440px] h-[100px] bg-[#FBEBB5] mx-auto">
           <div className="hidden md:block">
             <ul className="flex justify-center items-center gap-[75px] font-poppins text-[16px] font-normal flex-wrap">
               <li className="active-underline cursor-pointer">
